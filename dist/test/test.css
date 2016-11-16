@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400 !important;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+html.no-antialising {
+  -webkit-font-smoothing: auto;
+ -moz-osx-font-smoothing: auto;
+}
+
+.font-family {
+  padding-bottom: 100px;
+}
+
+.font-screen {
+  font-family: 'AudiTypeScreen', monospace !important;
+}
+
+.font-extended {
+  font-family: 'AudiTypeExtended', monospace !important;
+}
+
+.light {
+  font-weight: 300 !important;
+}
+
+.normal {
+  font-weight: 400 !important;
+}
+
+.bold {
+  font-weight: 700 !important;
+}
+
+.type-title {
+  margin-bottom: 2em;
+}
+
+.type-headline {
+  font-weight: 700 !important;
+  margin-bottom: 1em;
+}
+
+p {
+  margin-bottom: 1em !important;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid.two-columns .column {
+  width: 50%;
+}
+
+.grid.three-columns .column {
+  width: 33.3333%;
+}
+
+.column {
+  min-width: 20em;
+  float: left;
+  padding: 0 20px;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+th,
+td {
+  text-align: center;
+  border-bottom: 1px dotted #ccc;
+  padding: 8px 20px;
+}
+
+th {
+  border-bottom: 1px solid #000;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+  padding-left: 0;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "audi-type",
+  "version": "1.0.0-alpha.1",
+  "description": "Audi Type as Webfont",
+  "author": "Audi",
+  "homepage": "https://github.com/audi/audi-type.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/audi/audi-type.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-header": "^1.8.8",
+    "gulp-if": "^2.0.1",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "^2.1.0",
+    "gulp-util": "^3.0.7"
+  },
+  "scripts": {},
+  "engines": {
+    "node": "^6.0.0"
+  }
+}

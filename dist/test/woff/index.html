@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>WOFF - AudiTypeScreen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style media="screen">
+    @font-face {
+      font-family: 'AudiTypeScreen';
+      src: url("../../fonts/AudiTypeScreen-Light.woff") format("woff");
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'AudiTypeScreen';
+      src: url("../../fonts/AudiTypeScreen-Normal.woff") format("woff");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'AudiTypeScreen';
+      src: url("../../fonts/AudiTypeScreen-Bold.woff") format("woff");
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'AudiTypeExtended';
+      src: url("../../fonts/AudiTypeExtended-Normal.woff") format("woff");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'AudiTypeExtended';
+      src: url("../../fonts/AudiTypeExtended-Bold.woff") format("woff");
+      font-weight: 700;
+      font-style: normal;
+    }
+
+  </style>
+  <link rel="stylesheet" href="http://dev.strichpunkt-design.de/audi/gui-kit/assets/css/audiui-requirements.css">
+  <link rel="stylesheet" href="http://dev.strichpunkt-design.de/audi/gui-kit/assets/css/demo.css">
+  <link rel="stylesheet" href="http://dev.strichpunkt-design.de/audi/gui-kit/assets/css/audiui.css">
+  <link rel="stylesheet" href="http://dev.strichpunkt-design.de/audi/gui-kit/assets/css/audiui-debug.css">
+  <link rel="stylesheet" href="../test.css">
+</head>
+
+<body>
+  <div class="page">
+    <nav class="nav">
+      <div class="aui-grid">
+        <div class="aui-cell">
+          <ul class="aui-list aui-list--arrow">
+            <li class="aui-list__item"><a href="../woff2">WOFF2</a></li>
+            <li class="aui-list__item"><a href="../woff">WOFF</a></li>
+            <li class="aui-list__item"><a href="../ttf">TTF</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="control">
+      <div class="aui-grid">
+        <div class="aui-cell">
+          <div class="control__setting">
+            <label class="aui-switch">
+              <input type="checkbox" class="aui-switch__input" id="debug-antialising" checked>
+              <span class="aui-switch__text">Antialiasing</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <h2 class="type-title">WOFF (Web Open Font Format)</h2>
+      <div class="font-family font-screen">
+        <h2 class="type-headline">Audi Type Screen</h2>
+        <div class="grid three-columns">
+          <div class="column light">
+            <p>The quick, brown fox jumps over a lazy dog.</p>
+            <p>0123456789</p>
+            <p>aäb cde fgh ijk lmn oöp qrsß tuü vwx yz AÄBC DEF GHI JKL MNO ÖPQ RST UÜV WXYZ !"§ $%&amp; /() =?* '&lt;&gt; #|; ²³~ @`´ ©«» ¼× {}</p>
+            <p>ff, fi,fl, ft, fff, ffi, ffl, fft, ae, oe, ue, ij, st, et, fs</p>
+            <p>FF, FI, FL, FT, FFF, FFI, FFL, FFT, AE, OE, UE, IJ, ST, ET, FS</p>
+          </div>
+          <div class="column normal">
+            <p>The quick, brown fox jumps over a lazy dog.</p>
+            <p>0123456789</p>
+            <p>aäb cde fgh ijk lmn oöp qrsß tuü vwx yz AÄBC DEF GHI JKL MNO ÖPQ RST UÜV WXYZ !"§ $%&amp; /() =?* '&lt;&gt; #|; ²³~ @`´ ©«» ¼× {}</p>
+            <p>ff, fi,fl, ft, fff, ffi, ffl, fft, ae, oe, ue, ij, st, et, fs</p>
+            <p>FF, FI, FL, FT, FFF, FFI, FFL, FFT, AE, OE, UE, IJ, ST, ET, FS</p>
+          </div>
+          <div class="column bold">
+            <p>The quick, brown fox jumps over a lazy dog.</p>
+            <p>0123456789</p>
+            <p>aäb cde fgh ijk lmn oöp qrsß tuü vwx yz AÄBC DEF GHI JKL MNO ÖPQ RST UÜV WXYZ !"§ $%&amp; /() =?* '&lt;&gt; #|; ²³~ @`´ ©«» ¼× {}</p>
+            <p>ff, fi,fl, ft, fff, ffi, ffl, fft, ae, oe, ue, ij, st, et, fs</p>
+            <p>FF, FI, FL, FT, FFF, FFI, FFL, FFT, AE, OE, UE, IJ, ST, ET, FS</p>
+          </div>
+        </div>
+      </div>
+      <div class="font-family font-extended">
+        <h2 class="type-headline">Audi Type Extended</h2>
+        <div class="grid two-columns">
+          <div class="column normal">
+            <p>The quick, brown fox jumps over a lazy dog.</p>
+            <p>0123456789</p>
+            <p>aäb cde fgh ijk lmn oöp qrsß tuü vwx yz AÄBC DEF GHI JKL MNO ÖPQ RST UÜV WXYZ !"§ $%&amp; /() =?* '&lt;&gt; #|; ²³~ @`´ ©«» ¼× {}</p>
+            <p>ff, fi,fl, ft, fff, ffi, ffl, fft, ae, oe, ue, ij, st, et, fs</p>
+            <p>FF, FI, FL, FT, FFF, FFI, FFL, FFT, AE, OE, UE, IJ, ST, ET, FS</p>
+          </div>
+          <div class="column bold">
+            <p>The quick, brown fox jumps over a lazy dog.</p>
+            <p>0123456789</p>
+            <p>aäb cde fgh ijk lmn oöp qrsß tuü vwx yz AÄBC DEF GHI JKL MNO ÖPQ RST UÜV WXYZ !"§ $%&amp; /() =?* '&lt;&gt; #|; ²³~ @`´ ©«» ¼× {}</p>
+            <p>ff, fi,fl, ft, fff, ffi, ffl, fft, ae, oe, ue, ij, st, et, fs</p>
+            <p>FF, FI, FL, FT, FFF, FFI, FFL, FFT, AE, OE, UE, IJ, ST, ET, FS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    $('#debug-antialising').on('change', function(event) {
+      $('html').toggleClass('no-antialising', !$(this).prop('checked'));
+    });
+
+  </script>
+</body>
+
+</html>

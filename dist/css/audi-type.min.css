@@ -1,0 +1,8 @@
+/**
+ * audi_type - Audi Type as Webfont
+ * @version v1.0.0-alpha.1
+ * @license Apache-2.0
+ * @copyright 2016 Strichpunkt GmbH, Germany
+ * @link https://github.com/strichpunkt-design/audi_type
+ */
+@font-face{font-family:'AudiTypeScreen';src:url(../fonts/AudiTypeScreen-Light.woff2) format("woff2"),url(../fonts/AudiTypeScreen-Light.woff) format("woff"),url(../fonts/AudiTypeScreen-Light.ttf) format("truetype");font-weight:300;font-style:normal}@font-face{font-family:'AudiTypeScreen';src:url(../fonts/AudiTypeScreen-Normal.woff2) format("woff2"),url(../fonts/AudiTypeScreen-Normal.woff) format("woff"),url(../fonts/AudiTypeScreen-Normal.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:'AudiTypeScreen';src:url(../fonts/AudiTypeScreen-Bold.woff2) format("woff2"),url(../fonts/AudiTypeScreen-Bold.woff) format("woff"),url(../fonts/AudiTypeScreen-Bold.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:'AudiTypeExtended';src:url(../fonts/AudiTypeExtended-Normal.woff) format("woff"),url(../fonts/AudiTypeExtended-Normal.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:'AudiTypeExtended';src:url(../fonts/AudiTypeExtended-Bold.woff) format("woff"),url(../fonts/AudiTypeExtended-Bold.ttf) format("truetype");font-weight:700;font-style:normal}

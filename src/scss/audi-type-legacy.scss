@@ -1,0 +1,63 @@
+$auditype-font-src: '../fonts' !default;
+
+@at-root {
+  // Audi Type Screen
+  @font-face {
+    font-family: 'AudiTypeScreen';
+    src: url('#{$auditype-font-src}/AudiTypeScreen-Light.eot'); // IE9 Compat Modes
+    src: url('#{$auditype-font-src}/AudiTypeScreen-Light.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+         url('#{$auditype-font-src}/AudiTypeScreen-Light.woff2') format('woff2'), // Super Modern Browsers
+         url('#{$auditype-font-src}/AudiTypeScreen-Light.woff') format('woff'), // Pretty Modern Browsers
+         url('#{$auditype-font-src}/AudiTypeScreen-Light.ttf')  format('truetype'), // Safari, Android, iOS
+         url('#{$auditype-font-src}/AudiTypeScreen-Light.svg#AudiTypeScreen-Light') format('svg'); // Legacy iOS
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'AudiTypeScreen';
+    src: url('#{$auditype-font-src}/AudiTypeScreen-Normal.eot'); // IE9 Compat Modes
+    src: url('#{$auditype-font-src}/AudiTypeScreen-Normal.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+         url('#{$auditype-font-src}/AudiTypeScreen-Normal.woff2') format('woff2'), // Super Modern Browsers
+         url('#{$auditype-font-src}/AudiTypeScreen-Normal.woff') format('woff'), // Pretty Modern Browsers
+         url('#{$auditype-font-src}/AudiTypeScreen-Normal.ttf')  format('truetype'), // Safari, Android, iOS
+         url('#{$auditype-font-src}/AudiTypeScreen-Normal.svg#AudiTypeScreen-Normal') format('svg'); // Legacy iOS
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'AudiTypeScreen';
+    src: url('#{$auditype-font-src}/AudiTypeScreen-Bold.eot'); // IE9 Compat Modes
+    src: url('#{$auditype-font-src}/AudiTypeScreen-Bold.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+         url('#{$auditype-font-src}/AudiTypeScreen-Bold.woff2') format('woff2'), // Super Modern Browsers
+         url('#{$auditype-font-src}/AudiTypeScreen-Bold.woff') format('woff'), // Pretty Modern Browsers
+         url('#{$auditype-font-src}/AudiTypeScreen-Bold.ttf')  format('truetype'), // Safari, Android, iOS
+         url('#{$auditype-font-src}/AudiTypeScreen-Bold.svg#AudiTypeScreen-Bold') format('svg'); // Legacy iOS
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  // Audi Type Extended
+  @font-face {
+    font-family: 'AudiTypeExtended';
+    src: url('#{$auditype-font-src}/AudiTypeExtended-Normal.eot'); // IE9 Compat Modes
+    src: url('#{$auditype-font-src}/AudiTypeExtended-Normal.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+         url('#{$auditype-font-src}/AudiTypeExtended-Normal.woff') format('woff'), // Pretty Modern Browsers
+         url('#{$auditype-font-src}/AudiTypeExtended-Normal.ttf')  format('truetype'), // Safari, Android, iOS
+         url('#{$auditype-font-src}/AudiTypeExtended-Normal.svg#AudiTypeExtended-Normal') format('svg'); // Legacy iOS
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'AudiTypeExtended';
+    src: url('#{$auditype-font-src}/AudiTypeExtended-Bold.eot'); // IE9 Compat Modes
+    src: url('#{$auditype-font-src}/AudiTypeExtended-Bold.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+         url('#{$auditype-font-src}/AudiTypeExtended-Bold.woff') format('woff'), // Pretty Modern Browsers
+         url('#{$auditype-font-src}/AudiTypeExtended-Bold.ttf')  format('truetype'), // Safari, Android, iOS
+         url('#{$auditype-font-src}/AudiTypeExtended-Bold.svg#AudiTypeExtended-Bold') format('svg'); // Legacy iOS
+    font-weight: 700;
+    font-style: normal;
+  }
+}

@@ -1,0 +1,41 @@
+/**
+ * audi_type - Audi Type as Webfont
+ * @version v1.0.0-alpha.1
+ * @license Apache-2.0
+ * @copyright 2016 Strichpunkt GmbH, Germany
+ * @link https://github.com/strichpunkt-design/audi_type
+ */
+@font-face {
+  font-family: 'AudiTypeScreen';
+  src: url("../fonts/AudiTypeScreen-Light.eot");
+  src: url("../fonts/AudiTypeScreen-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/AudiTypeScreen-Light.woff2") format("woff2"), url("../fonts/AudiTypeScreen-Light.woff") format("woff"), url("../fonts/AudiTypeScreen-Light.ttf") format("truetype"), url("../fonts/AudiTypeScreen-Light.svg#AudiTypeScreen-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AudiTypeScreen';
+  src: url("../fonts/AudiTypeScreen-Normal.eot");
+  src: url("../fonts/AudiTypeScreen-Normal.eot?#iefix") format("embedded-opentype"), url("../fonts/AudiTypeScreen-Normal.woff2") format("woff2"), url("../fonts/AudiTypeScreen-Normal.woff") format("woff"), url("../fonts/AudiTypeScreen-Normal.ttf") format("truetype"), url("../fonts/AudiTypeScreen-Normal.svg#AudiTypeScreen-Normal") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AudiTypeScreen';
+  src: url("../fonts/AudiTypeScreen-Bold.eot");
+  src: url("../fonts/AudiTypeScreen-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AudiTypeScreen-Bold.woff2") format("woff2"), url("../fonts/AudiTypeScreen-Bold.woff") format("woff"), url("../fonts/AudiTypeScreen-Bold.ttf") format("truetype"), url("../fonts/AudiTypeScreen-Bold.svg#AudiTypeScreen-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AudiTypeExtended';
+  src: url("../fonts/AudiTypeExtended-Normal.eot");
+  src: url("../fonts/AudiTypeExtended-Normal.eot?#iefix") format("embedded-opentype"), url("../fonts/AudiTypeExtended-Normal.woff") format("woff"), url("../fonts/AudiTypeExtended-Normal.ttf") format("truetype"), url("../fonts/AudiTypeExtended-Normal.svg#AudiTypeExtended-Normal") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'AudiTypeExtended';
+  src: url("../fonts/AudiTypeExtended-Bold.eot");
+  src: url("../fonts/AudiTypeExtended-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AudiTypeExtended-Bold.woff") format("woff"), url("../fonts/AudiTypeExtended-Bold.ttf") format("truetype"), url("../fonts/AudiTypeExtended-Bold.svg#AudiTypeExtended-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal; }

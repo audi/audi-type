@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Audi Type</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<link rel="stylesheet" href="css/audi-type.css">
+<style media="screen">
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+
+  html {
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+  }
+
+  .font-family {
+    padding-bottom: 100px;
+  }
+
+  .font-screen {
+    font-family: 'AudiTypeScreen';
+  }
+
+  .font-extended {
+    font-family: 'AudiTypeExtended';
+  }
+
+  .light {
+    font-weight: 300;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+  .headline {
+    font-weight: 700;
+    padding: 0 20px;
+  }
+
+  .grid:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+  .grid.two-columns .column {
+    width: 50%;
+  }
+
+  .grid.three-columns .column {
+    width: 33.3333%;
+  }
+
+  .column {
+    float: left;
+    min-width: 20em;
+    padding: 0 20px;
+  }
+
+  .content {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+</style>
+
+<body>
+  <div class="content">
+    <div class="font-family font-screen">
+      <h2 class="headline">Audi Type Screen</h2>
+      <div class="grid three-columns">
+        <div class="column light">
+          <p>The quick, brown fox jumps over a lazy dog.</p>
+          <p>aäb cde fgh ijk lmn oöp qrsß tuü vwx yz AÄBC DEF GHI JKL MNO ÖPQ RST UÜV WXYZ !"§ $%&amp; /() =?* '&lt;&gt; #|; ²³~ @`´ ©«» ¼× {}</p>
+          <p>0123456789</p>
+          <p>ff, fi,fl, ft, fff, ffi, ffl, fft, ae, oe, ue, ij, st, et, fs</p>
+          <p>FF, FI, FL, FT, FFF, FFI, FFL, FFT, AE, OE, UE, IJ, ST, ET, FS</p>
+        </div>
+        <div class="column">
+          <p>The quick, brown fox jumps over a lazy dog.</p>
+          <p>aäb cde fgh ijk lmn oöp qrsß tuü vwx yz AÄBC DEF GHI JKL MNO ÖPQ RST UÜV WXYZ !"§ $%&amp; /() =?* '&lt;&gt; #|; ²³~ @`´ ©«» ¼× {}</p>
+          <p>0123456789</p>
+          <p>ff, fi,fl, ft, fff, ffi, ffl, fft, ae, oe, ue, ij, st, et, fs</p>
+          <p>FF, FI, FL, FT, FFF, FFI, FFL, FFT, AE, OE, UE, IJ, ST, ET, FS</p>
+        </div>
+        <div class="column bold">
+          <p>The quick, brown fox jumps over a lazy dog.</p>
+          <p>aäb cde fgh ijk lmn oöp qrsß tuü vwx yz AÄBC DEF GHI JKL MNO ÖPQ RST UÜV WXYZ !"§ $%&amp; /() =?* '&lt;&gt; #|; ²³~ @`´ ©«» ¼× {}</p>
+          <p>0123456789</p>
+          <p>ff, fi,fl, ft, fff, ffi, ffl, fft, ae, oe, ue, ij, st, et, fs</p>
+          <p>FF, FI, FL, FT, FFF, FFI, FFL, FFT, AE, OE, UE, IJ, ST, ET, FS</p>
+        </div>
+      </div>
+    </div>
+    <div class="font-family font-extended">
+      <h2 class="headline">Audi Type Extended</h2>
+      <div class="grid two-columns">
+        <div class="column">
+          <p>The quick, brown fox jumps over a lazy dog.</p>
+          <p>aäb cde fgh ijk lmn oöp qrsß tuü vwx yz AÄBC DEF GHI JKL MNO ÖPQ RST UÜV WXYZ !"§ $%&amp; /() =?* '&lt;&gt; #|; ²³~ @`´ ©«» ¼× {}</p>
+          <p>0123456789</p>
+          <p>ff, fi,fl, ft, fff, ffi, ffl, fft, ae, oe, ue, ij, st, et, fs</p>
+          <p>FF, FI, FL, FT, FFF, FFI, FFL, FFT, AE, OE, UE, IJ, ST, ET, FS</p>
+        </div>
+        <div class="column bold">
+          <p>The quick, brown fox jumps over a lazy dog.</p>
+          <p>aäb cde fgh ijk lmn oöp qrsß tuü vwx yz AÄBC DEF GHI JKL MNO ÖPQ RST UÜV WXYZ !"§ $%&amp; /() =?* '&lt;&gt; #|; ²³~ @`´ ©«» ¼× {}</p>
+          <p>0123456789</p>
+          <p>ff, fi,fl, ft, fff, ffi, ffl, fft, ae, oe, ue, ij, st, et, fs</p>
+          <p>FF, FI, FL, FT, FFF, FFI, FFL, FFT, AE, OE, UE, IJ, ST, ET, FS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
