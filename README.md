@@ -16,6 +16,10 @@
 2. In your main SCSS override `$auditype-font-src` with the path to the font folder before importing the `audi-type.scss` file. `$auditype-font-src: 'path/to/font/folder;`
 3. Import the SCSS file `@import "src/scss/audi-type";` to your main SCSS.
 
+## Demo
+
+Just open `dist/index.html` in your web browser of choice.
+
 ## Build
 
 To get started, first install the necessary dependencies, from the root of the project:
