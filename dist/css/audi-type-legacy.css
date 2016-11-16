@@ -1,9 +1,8 @@
 /**
- * audi_type - Audi Type as Webfont
+ * audi-type - Audi Type Extended and Screen as Webfont.
  * @version v1.0.0-alpha.1
- * @license Apache-2.0
- * @copyright 2016 Strichpunkt GmbH, Germany
- * @link https://github.com/strichpunkt-design/audi_type
+ * @copyright 2016 Audi
+ * @link https://github.com/audi/audi-type.git
  */
 @font-face {
   font-family: 'AudiTypeScreen';

@@ -17,7 +17,6 @@ const libraryName = 'audi-type';
 const banner = `/**
  * ${pkg.name} - ${pkg.description}
  * @version v${pkg.version}
- * @license ${pkg.license}
  * @copyright ${new Date().getFullYear()} ${pkg.author}
  * @link ${pkg.homepage}
  */\n`;
