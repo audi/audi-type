@@ -1,6 +1,6 @@
 {
   "name": "@audi/audi-type",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "Audi Type Extended and Screen as Webfont.",
   "author": "Audi",
   "homepage": "https://github.com/audi/audi-type.git",
@@ -30,5 +30,5 @@
     "url": "https://github.com/audi/audi-type/issues"
   },
   "main": "gulpfile.js",
-  "license": "Apache-2.0"
+  "license": "SEE LICENSE IN LICENSE.md"
 }
