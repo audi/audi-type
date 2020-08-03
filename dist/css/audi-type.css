@@ -1,35 +1,35 @@
 /**
  * audi-type - Audi Type Extended and Screen as Webfont.
- * @version v1.0.0-alpha.1
- * @copyright 2016 Audi
+ * @version v1.0.0-alpha.2
+ * @copyright 2020 Audi
  * @link https://github.com/audi/audi-type.git
  */
 @font-face {
-  font-family: 'AudiTypeScreen';
-  src: url("../fonts/AudiTypeScreen-Light.woff2") format("woff2"), url("../fonts/AudiTypeScreen-Light.woff") format("woff"), url("../fonts/AudiTypeScreen-Light.ttf") format("truetype");
+  font-family: 'AudiTypeWide';
+  src: url("../fonts/AudiType-WideLight_4.03.woff2") format("woff2"), url("../fonts/AudiType-WideLight_4.03.woff") format("woff"), url("../fonts/AudiType-WideLight_4.03.ttf") format("truetype");
   font-weight: 300;
-  font-style: normal; }
+  font-stretch: 105%; }
 
 @font-face {
-  font-family: 'AudiTypeScreen';
-  src: url("../fonts/AudiTypeScreen-Normal.woff2") format("woff2"), url("../fonts/AudiTypeScreen-Normal.woff") format("woff"), url("../fonts/AudiTypeScreen-Normal.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: 'AudiTypeWide';
+  src: url("../fonts/AudiType-WideNormal_4.03.woff2") format("woff2"), url("../fonts/AudiType-WideNormal_4.03.woff") format("woff"), url("../fonts/AudiType-WideNormal_4.03.ttf") format("truetype");
+  font-weight: 400;
+  font-stretch: 105%; }
 
 @font-face {
-  font-family: 'AudiTypeScreen';
-  src: url("../fonts/AudiTypeScreen-Bold.woff2") format("woff2"), url("../fonts/AudiTypeScreen-Bold.woff") format("woff"), url("../fonts/AudiTypeScreen-Bold.ttf") format("truetype");
+  font-family: 'AudiTypeWide';
+  src: url("../fonts/AudiType-WideBold_4.03.woff2") format("woff2"), url("../fonts/AudiType-WideBold_4.03.woff") format("woff"), url("../fonts/AudiType-WideBold_4.03.ttf") format("truetype");
   font-weight: 700;
-  font-style: normal; }
+  font-stretch: 105%; }
 
 @font-face {
   font-family: 'AudiTypeExtended';
-  src: url("../fonts/AudiTypeExtended-Normal.woff") format("woff"), url("../fonts/AudiTypeExtended-Normal.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+  src: url("../fonts/AudiType-ExtendedNormal_4.03.woff2") format("woff2"), url("../fonts/AudiType-ExtendedNormal_4.03.woff") format("woff"), url("../fonts/AudiType-ExtendedNormal_4.03.ttf") format("truetype");
+  font-weight: 400;
+  font-stretch: 130%; }
 
 @font-face {
   font-family: 'AudiTypeExtended';
-  src: url("../fonts/AudiTypeExtended-Bold.woff") format("woff"), url("../fonts/AudiTypeExtended-Bold.ttf") format("truetype");
+  src: url("../fonts/AudiType-ExtendedBold_4.03.woff2") format("woff2"), url("../fonts/AudiType-ExtendedBold_4.03.woff") format("woff"), url("../fonts/AudiType-ExtendedBold_4.03.ttf") format("truetype");
   font-weight: 700;
-  font-style: normal; }
+  font-stretch: 130%; }
