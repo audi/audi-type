@@ -47,4 +47,12 @@ $auditype-font-src: '../fonts' !default;
 		font-weight: 700;
 		font-stretch: 130%;
 	}
+
+	// Audi Type Variable
+	@font-face {
+		font-family: 'AudiTypeVariable';
+		src: url('#{$auditype-font-src}/AudiTypeVF_4.033.woff2') format('woff2'),
+		url('#{$auditype-font-src}/AudiTypeVF_4.033.woff') format('woff'),
+		url('#{$auditype-font-src}/AudiTypeVF_4.033.ttf') format('truetype');
+	}
 }
